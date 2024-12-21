@@ -10,7 +10,7 @@ export function detectProductSub({ productSub, browserKind }: ComponentDict): De
     productSub.value !== '20030107'
   ) {
     return BotKind.Unknown
-  } else if (browserKind == BrowserKind.Firefox && productSub.value === '20030107') {
+  } else if (browserKind.value == BrowserKind.Firefox && productSub.value === '20030107') {
     return BotKind.Unknown
   }
 }

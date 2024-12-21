@@ -1,6 +1,6 @@
 {
   "name": "@krisseck/botd-extra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "botd is a browser library for JavaScript bot detection",
   "keywords": [
     "bot",
@@ -48,11 +48,11 @@
   },
   "devDependencies": {
     "@fpjs-incubator/broyster": "^0.2.3",
+    "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-json": "^5.0.1",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-typescript": "^10.0.1",
-    "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^10.0.1",
     "@types/jasmine": "^3.5.14",
     "@types/ua-parser-js": "^0.7.36",
     "@types/webpack": "^5.28.0",
